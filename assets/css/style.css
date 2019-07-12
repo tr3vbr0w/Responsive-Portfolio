@@ -1,0 +1,63 @@
+#main-body {
+    margin: 90px auto;
+    width: 960px;
+    height: 400px;
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+h1 {
+    color: #4aaaa5;
+    font-size: 2em;
+    padding: 10px 0px;
+    font-weight: bold;
+}
+img {
+    height: 200px;
+    width: 200px;
+    float: left;
+}
+p {
+    clear: right;
+    line-height: 3;
+    /* When using line height. do not use pixels, em or %, rather use just number and it will be default *number */
+}
+.foot{
+    padding: top;
+}
+#contact-body {
+    margin: 90px auto;
+    width: 920px;
+    height: 400px;
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+
+#name-box {
+    width: 920px;
+}
+#email-box {
+    width: 920px;
+
+}
+button {
+    background-color: #4aaaa5;
+    padding: 5px 10px 5px 10px;
+    color: white;
+}
+#container{
+
+}
+#portfolio-body {
+    margin: 90px auto;
+    width: 920px;
+    height: 400px;
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+}
