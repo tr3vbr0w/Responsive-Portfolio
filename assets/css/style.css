@@ -15,12 +15,6 @@ h1 {
     padding: 10px 0px;
     font-weight: bold;
 }
-img {
-    height: 200px;
-    width: 200px;
-    float: left;
-    margin-right: 10px;
-}
 p {
     clear: right;
     line-height: 2;
@@ -67,10 +61,13 @@ button {
 }
 
 .design{
-    width: 300px;
-    height: 300px;
+    width: 25%;
+    height: 25%;
     margin: 20px;
-   display: block;
+    display: block;
+}
+img.design { 
+    width: 100%;
 }
 
 h1.banner {
@@ -86,22 +83,34 @@ h1.banner {
     body
 }
 @media screen and (max-with: 768px) {
-    body
+    
 } 
 @media screen and (max-width: 980px) {
     #main-body {
         width: 50%;
         float: left;
         margin-left: 15px;
+    }
+    #portfolio-body{
+        width: 50%;
+        float: left;
+        margin-left: 15px;
+        justify-content: space-around;
 
-    .container {
+    }
+    #design {
+        height: auto;
+        width: 40%;
+    }
+    #contact-body {
         width: 50%;
         float: left;
         margin-left: 15px;
     }
-    .contact-body {
-        width: 50%;
-        float: left;
-        margin-left: 15px;
+    #name-box, #email-box, #message-box {
+        width: 100%;
+    }
+    h1.banner {
+        font-size: 75%;
     }
 }

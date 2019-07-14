@@ -62,12 +62,6 @@ footer {
     #nav {
         width: 60%; 
     }
-    #main-body::after {
-        content: "";
-        display: table;
-        clear: both;
-
-    }
 }
 
 
