@@ -51,9 +51,24 @@ footer {
 
 #header-content {
     margin: 0 auto;
-    width: 960px;
+    width: 100%;
 }
 
+@media screen and (max-width: 980px) {
+    #header-content {
+        width: 90%;
+        justify-content: center;
+    }
+    #nav {
+        width: 60%; 
+    }
+    #main-body::after {
+        content: "";
+        display: table;
+        clear: both;
+
+    }
 }
+
 
 
