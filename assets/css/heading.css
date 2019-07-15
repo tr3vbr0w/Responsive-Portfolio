@@ -51,7 +51,7 @@ footer {
 
 #header-content {
     margin: 0 auto;
-    width: 100%;
+    width: 90%;
 }
 
 @media screen and (max-width: 980px) {
@@ -61,6 +61,26 @@ footer {
     }
     #nav {
         width: 60%; 
+        display: block;
+    }
+}
+@media screen and (max-width: 640px) {
+    #name {
+        width: 100%;
+        text-align: center;
+        position: fixed;
+        top: 0;
+    }
+    #header-content{
+        width: 100%;
+
+    }
+    #nav {
+        position: fixed;
+        float: none;
+        width: 100%;
+        align-content: center;
+        top: 20;
     }
 }
 
