@@ -79,12 +79,6 @@ h1.banner {
     bottom: 0;
     text-align: center;
 }
-@media screen and (max-with: 640px) {
-    body
-}
-@media screen and (max-with: 768px) {
-    
-} 
 @media screen and (max-width: 980px) {
     #main-body {
         width: 50%;
@@ -98,7 +92,7 @@ h1.banner {
         justify-content: space-around;
 
     }
-    #design {
+    .design {
         height: auto;
         width: 40%;
     }
@@ -113,4 +107,14 @@ h1.banner {
     h1.banner {
         font-size: 75%;
     }
+    @media screen and (max-width: 768px) {
+        .design {
+            width: 47%;
+            height: auto;
+            margin: 1%;
+        }
+    @media screen and (max-width: 640px) {
+        body
+    }
+
 }
